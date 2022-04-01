@@ -1,0 +1,111 @@
+  import Greet  from './components/Greet';
+import Welcome from './components/welcome'
+import Hello from './components/hello';
+import Message  from './components/message';
+// import Counter from './components/Counter'
+import Function from './components/EventHandling';
+import ParentComponent from './components/ParentComponent';
+import UserGreeting from './components/UserGreeting';
+import NameList from './components/NameList';
+import StyleSheet from './components/StyleSheet';
+import Inline from './components/Inline';
+import "./appStyle.css";
+import style from "./appStyle.module.css";
+import Forms from './components/Forms';
+import LifeCycleA from './components/LifeCycleA';
+import FragmentDemo from './components/FragmentDemo';
+import PureCustomComponent from './components/PureComponent';
+import ParentComponentAgain from './components/ParentComponentAgain';
+import RefsDemo from './components/RefsDemo';
+import form from "./components/formStyle/form.css"
+import FocusInput from './components/RefComponent/FocusInput';
+import FrParentInput from './components/FrInput/FrParentInput';
+import PortalDemo from './components/portalDemo/PortalDemo';
+import Hero from './components/Hero/Hero';
+import ErrorBoundary from './components/Hero/ErrorBoundary';
+import ClickCounter from './components/HigherOrder/ClickCounter';
+import OnHoverCounter from './components/HigherOrder/OnHoverCounter';
+import ClickCountertwo from './components/RenderProps/ClickCountertwo';
+import OverCounterTwo from './components/RenderProps/OverCounterTwo';
+import User from './components/RenderProps/User';
+import Counter from './components/RenderProps/Counter';
+import ComponentC from './components/ContextApi/ComponentC';
+import {UserProvider} from './components/ContextApi/UserContext'
+
+
+  
+      {/* <UserProvider value="sujan adhikari..">
+        < ComponentC /> 
+      </UserProvider> */}
+
+
+      {/* <Counter> 
+        {(count,OnclickIncreament,name)=>(
+          <ClickCountertwo count={count} OnclickIncreament={OnclickIncreament} name={name} />
+        )}
+      </Counter> */}
+
+
+      {/* <Counter>
+        {(count,OnclickIncreament,name)=>(
+          <OverCounterTwo count={count} OnclickIncreament={OnclickIncreament} name={name} />
+        )}
+      </Counter> */}
+
+
+      {/* <OverCounterTwo />
+      <User name={(isLoggedIn)=> isLoggedIn ? "Sujan Adhikari" :"Guest"} /> */} 
+
+
+      {/* <OnHoverCounter  />
+      <ClickCounter name = "sujan" /> */}
+      {/* <ErrorBoundary >
+        <Hero heroName="jetray" />
+      </ErrorBoundary>
+
+      <ErrorBoundary>
+        <Hero heroName="superMan" />
+      </ErrorBoundary>
+
+      <ErrorBoundary >
+        <Hero heroName="Batman" />
+      </ErrorBoundary>
+
+      <ErrorBoundary >
+        <Hero heroName="joker" />
+      </ErrorBoundary> */}
+      {/* <PortalDemo /> */}
+      {/* <FrParentInput /> */}
+      {/* <FocusInput /> */}
+      {/* <form className='register-form'>
+        <RefsDemo placeholder="Full Name" label="Full Name" type="name" />
+        <RefsDemo placeholder="Username" label="Username" type="username" />
+        <RefsDemo placeholder = "Password" label="Password" type="password" />
+        <RefsDemo placeholder = "Password (again)" label="Password Confirm" type="password" />
+        <RefsDemo placeholder="Date of birth"  label="Date Of Birth" type="date" />
+        <RefsDemo type="submit" value="Register" />
+      </form> */}
+
+      {/* <ParentComponentAgain /> */}
+      {/* <PureCustomComponent /> */}
+      {/* <FragmentDemo /> */}
+      {/* <LifeCycleA /> */}
+      {/* < Forms /> */}
+      {/* <StyleSheet primary={true}  />
+      <Inline />
+      <h1 className='success'> Error</h1>
+      <h1 className={style.error}> Success</h1> */}
+      {/* < NameList /> */}
+      {/* < UserGreeting /> */}
+      {/* < ParentComponent /> */}
+      {/* <Function /> */}
+      {/* < Counter /> */}
+      {/* <Message /> */}
+      {/* <Hello name="Bruce" firstName="sujan" superHeroName="BatMan">
+        <p>He is very Rich Super Hero</p>
+      </Hello>
+      <Hello name="clark" firstName="Rupesh" superHeroName="SuperMan">
+        <button>Action</button>
+      </Hello>
+      <Hello name="Diana" firstName="Mina" superHeroName="wonder Women" >
+        <span>action Women Super Hero</span>
